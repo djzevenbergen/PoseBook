@@ -62,6 +62,7 @@ code {
   float: right;
   margin: 0 0 3em 0;
   padding: 0;
+  padding-top: 7px;
   list-style: none; 
 }
   
@@ -77,6 +78,21 @@ code {
   border-color: #069; 
 }
 
+#metrics {
+  margin: 0 0 1em 0;
+  padding: 8px;
+}
+  
+#metrics li {
+  list-style-position: unset;
+  display: block;
+  float: left;
+}
+
+
+
+
+
 /* .bar {
   border-radius: 15px;
   border: 1px lightblue solid;
@@ -86,3 +102,17 @@ code {
   left: 0;
   z-index: 5;
 } */
+
+#card {
+  background-color: white ;
+}
+
+#card-name {
+  color: grey;
+  float: right; 
+  margin-right: 5%;
+}
+
+#metric-labels {
+  font-size: small;
+}
