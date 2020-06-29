@@ -5,6 +5,12 @@ import {
 } from 'reactstrap';
 import UserMetrics from "./UserMetrics.js";
 
+// class UserProfile extends React.Component {
+//   render(props) {
+//     constructor(props) {
+//       super(props);
+//       this.state = {};
+//     }
 function UserProfile(props) {
   return (
     <React.Fragment>
@@ -17,13 +23,13 @@ function UserProfile(props) {
             <table >
               <tr>
                 <th>POSTS&nbsp;&nbsp;</th>
-                <th>FOLLOWING&nbsp;&nbsp;</th>
-                <th>FOLLOWERS</th>
+                <th>FOLLOWERS&nbsp;&nbsp;</th>
+                <th>HATERS&nbsp;&nbsp;</th>
               </tr>
               <tr>
-                <td>1000</td>
-                <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;50</td>
-                <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;49</td>
+                <td>{props.posts}</td>
+                <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{props.followers}</td>
+                <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{props.haters}</td>
               </tr>
             </table>
 

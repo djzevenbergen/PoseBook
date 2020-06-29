@@ -89,6 +89,10 @@ code {
   float: left;
 }
 
+.fullText {
+  display: none;
+}
+
 
 
 
@@ -115,4 +119,9 @@ code {
 
 #metric-labels {
   font-size: small;
+}
+
+#feed-title {
+  background-color: lightblue;
+  text-align: center;
 }

@@ -1,14 +1,14 @@
 import React from 'react';
+import UserProfile from "./UserProfile";
 
-function UserMetrics(props) {
+function UserMetrics() {
   return (
-    <React.Fragment>
-      <ul>
-        <li><h6>{props.posts}</h6></li>
-        <li><h6>{props.following}  </h6></li>
-        <li><h6>{props.followers}</h6></li>
-      </ul>
-    </React.Fragment>
+
+    <UserProfile
+      posts="50"
+      followers="100"
+      haters="388" />
+
   );
 }
 
