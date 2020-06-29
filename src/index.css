@@ -12,12 +12,25 @@ code {
     monospace;
 }
 
+/* body {
+  width: 70%;
+  margin: 20pt;
+} */
+
+.container {
+  margin-top: 5%;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 5%;
+}
+
 #nav {
-	width: 100%;
+	width: 50%;
 	float: left;
 	margin: 0 0 3em 0;
 	padding: 0;
-	list-style: none; }
+  list-style: none; }
+  
 #nav li {
 	float: left; }
 
@@ -35,4 +48,41 @@ code {
 		text-decoration: none;
 		font-weight: bold;
 		color: #069;
-		border-right: 1px solid #ccc; }
+    border-right: 1px solid #ccc; }
+    
+/* #search-bar {
+  width: 50%;
+  float: right;
+  margin: 0 0 3em 0;
+  padding: 0;
+  list-style: none; } */
+
+#search {
+  width: 50%;
+  float: right;
+  margin: 0 0 3em 0;
+  padding: 0;
+  list-style: none; 
+}
+  
+#search li {
+  list-style: none;
+  display: block;
+  float: right;
+}
+  
+#search input {
+  border-radius: 12pt;
+  border-style: solid;
+  border-color: #069; 
+}
+
+/* .bar {
+  border-radius: 15px;
+  border: 1px lightblue solid;
+  padding: 5px 5px 5px 25px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 5;
+} */
